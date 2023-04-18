@@ -10,7 +10,7 @@ export const addRecipeApi = (
       ingredients_attributes: ingredientList
     }
   };
-
+console.log(process.env.BACKEND_URL);
   return post(
     process.env.BACKEND_URL,
     addRecipeData
