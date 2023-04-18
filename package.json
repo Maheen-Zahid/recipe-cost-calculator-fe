@@ -1,6 +1,7 @@
 {
   "name": "recipe-app",
   "version": "0.1.0",
+  "proxy": "http://railsrecipebackend-env.eba-3hbphfmp.eu-north-1.elasticbeanstalk.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
