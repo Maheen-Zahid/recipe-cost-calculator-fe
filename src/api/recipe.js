@@ -12,7 +12,7 @@ export const addRecipeApi = (
   };
 
   return post(
-    `http://localhost:3002/api/v1/recipes`,
+    process.env.BACKEND_URL,
     addRecipeData
   );
 };
