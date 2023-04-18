@@ -10,9 +10,9 @@ export const addRecipeApi = (
       ingredients_attributes: ingredientList
     }
   };
-console.log(process.env.BACKEND_URL);
+console.log(process.env.REACT_APP_BACKEND_URL, 'REACT_APP_BACKEND_URL');
   return post(
-    process.env.BACKEND_URL,
+    process.env.REACT_APP_BACKEND_URLL,
     addRecipeData
   );
 };
